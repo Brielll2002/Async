@@ -15,7 +15,7 @@ const p3 = new Promise((resolve, reject) => {
     }
 })
 
-//Faz com que todas as promises sejam "entregue" de uma vez
+//Faz com que todas as promises sejam "entregues" de uma vez
 Promise.all([p1, p2, p3]).then((values)=>{
     console.log(values)
 })
